@@ -295,9 +295,10 @@
     }
     .navbar-brand figure img{
         width: 128px;
+        height: 57.51px;
     }
     .navbar-expand-lg .navbar-collapse {
-        margin-top: -37px;
+        margin-top: 0;
     }
     .navbar-nav li {
         margin: 0 15px;
@@ -430,6 +431,7 @@
     }
     .navbar-brand figure img {
         width: 120px;
+        height: 53.92px;
     }
     .navbar-nav li {
         margin: 0 10px;
@@ -1351,6 +1353,7 @@
     }
     .navbar-brand figure img {
         width: 130px;
+        height: 58.42px;
     }
     .navbar-nav li::before{
         display: none;
@@ -3718,9 +3721,11 @@
 }
 
 .main-header .navbar_background {
-
-    left: 170px;
-
-       
+    left: 144px; 
 }
 
+@media screen and (min-width: 1199px){
+    .main-header .navbar_background {
+        left: 30px !important; 
+    }
+}
