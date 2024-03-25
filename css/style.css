@@ -858,7 +858,7 @@ width: 100%;
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  color: #23408e;
+  color: #ff7162;
 }
 
 .main-menu .navigation{
@@ -3706,7 +3706,7 @@ h3 a:hover{
 
 .main-header.style-two .main-menu .navigation > li.current > a, 
 .main-header.style-two .main-menu .navigation > li:hover > a{
-  color: #2b3c6b;
+  color: #ff7162 !important;
 }
 
 .main-header.style-two .main-menu .navigation > li.logo-box:before{
