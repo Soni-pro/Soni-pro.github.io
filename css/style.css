@@ -149,7 +149,7 @@ a{
 a:hover{
   text-decoration:none;
   outline:none;
-  color: #23408e;
+  color: #fff;
 }
 
 input,button,select,textarea{
@@ -421,7 +421,37 @@ img{
   color: #2b3c6b;
 }
 
+.sec-title h4{
+  position: relative;
+  display: block;
+  font-size: 28px;
+  line-height: 38px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  color: #2b3c6b;
+}
 
+.custom-list {
+  list-style-type: none;
+  color: #615e5d;;
+}
+
+.custom-list li {
+  padding: 6px 0;
+}
+
+.custom-list li::before {
+  content: "\2022"; 
+  color: #23408e;
+  display: inline-block;
+  width: 1em; 
+  font-size: 1.3em;
+}
+
+.custom-list li a {
+  text-decoration: none;
+  color: inherit; 
+}
 
 /*** 
 
@@ -2925,7 +2955,6 @@ h3 a:hover{
   position: absolute;
   left: 0px;
   top: 6px;
-  color: #23408e;
 }
 
 .main-footer .footer-top .contact-widget .widget-content .info-list li:last-child{
